@@ -14,8 +14,9 @@ A lightweight task manager built with **HTML, CSS, and vanilla JavaScript**. It 
 - Add tasks with **High**, **Medium**, or **Low** priority
 - Mark tasks as complete or active
 - Delete tasks when they are no longer needed
-- Save tasks in browser `localStorage` so they remain after a refresh in the same browser
+- Save tasks in browser `localStorage` so they remain after a refresh in the same browser; task text is rendered as text rather than HTML
 - Toggle between light and dark visual themes
+- Add tasks using the Enter key and use accessible labels on task action buttons
 - Responsive, dependency-free front-end
 
 ## Tech Stack
@@ -54,7 +55,7 @@ This is a **client-side demo**. Tasks are stored in the current browser only; th
 - Add due dates and sorting by priority
 - Persist the selected theme
 - Add keyboard-friendly controls and automated tests
-- Harden DOM rendering and validate stored data
+- Add automated tests for task actions and malformed stored data
 
 ## Author
 
